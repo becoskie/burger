@@ -1,0 +1,14 @@
+<h1>Burgers App</h1>
+
+<p>Manage Burgers with this app</p>
+
+<!-- Pass in data from server.js -->
+<ul>
+  {{#each burgers}}
+  	<li>
+  		<p><span class="label">ID:</span> {{this.id}}</p>
+      <p><span class="label">Burger Type:</span> {{this.burger_name}}</p>
+      <p><span class="label">Devoured:</span> {{this.devoured}}</p>
+  	</li>
+  {{/each}}
+</ul>

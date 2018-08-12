@@ -1,0 +1,13 @@
+body {
+    background: #e17055;
+    color: white;
+}
+
+form {
+    display: table;
+    margin: auto;
+}
+
+.not_ate, .ate {
+    background: #fab1a0;
+}

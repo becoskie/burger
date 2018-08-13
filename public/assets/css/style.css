@@ -49,3 +49,8 @@ p {
 .burger_link {
     cursor: pointer;
 }
+
+.eat_it {
+    padding-left:1em;
+    color:rgba(61, 144, 208, 1.0);
+}

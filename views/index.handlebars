@@ -23,7 +23,7 @@
 	<div class="col-md-3 not_ate">
 		<h3>maybe you wanna ate it?</h3>
 		{{#each burgers}} {{#unless devoured}}
-		<p class="burger_link" data-id="{{this.id}}" data-bellyStatus="{{this.devoured}}">{{this.burger_name}}</p>
+		<p class="burger_link" data-id="{{this.id}}" data-bellyStatus="{{this.devoured}}">{{this.burger_name}}<span class="eat_it"> yep!</span></p>
 		{{/unless}} {{/each}}
 	</div>
 	<div class="col-md-2"></div>
